@@ -43,6 +43,6 @@ else if (operator === "**"){
 else{
 			alert("please enter a valid operator ( + , - , * , / , % , ** )")	;
 }
-alert(x + operator + y + " = "+ result);
+alert(x + " " + operator + " " + y + " = "+ result);
 }
 calculate();
